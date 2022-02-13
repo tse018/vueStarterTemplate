@@ -10,8 +10,11 @@ const app_store = createStore(store);
 
 const router = createRouter({
    routes: routes,
-   history: createWebHistory()
-})
+   history: createWebHistory(),
+   scrollBehavior() {
+      window.scrollTo(0,0);
+   },
+});
 
 createApp(App)
    .use(app_store)

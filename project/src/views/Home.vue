@@ -1,10 +1,16 @@
 <template>
+   <Grid />
 </template>
 
-
 <script>
-</script>
+import Grid from '../components/Grid.vue';
 
+export default {
+   components: {
+      Grid,
+   }
+}
+</script>
 
 <style>
 </style>

@@ -6,7 +6,6 @@
 }
 
 /* more specific elements */
-
 html,
 body,
 div,
@@ -145,9 +144,7 @@ textarea {
 
 button {
    cursor: pointer;
-}
-
-img {
-   width: 100%;
+   background-color: transparent;
+   border: none;
 }
 

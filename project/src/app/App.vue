@@ -1,7 +1,5 @@
 <template>
-   <transition name="animation">
-      <RouterView :key="$route.path" />
-   </transition>
+   <RouterView />
 </template>
 
 <script></script>

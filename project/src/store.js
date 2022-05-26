@@ -1,5 +1,7 @@
+import vuexStarter from './modules/vuexStarter.js';
+
 export default {
-   state() {
-      return {}
+   modules: {
+      vuexStarter
    }
 };

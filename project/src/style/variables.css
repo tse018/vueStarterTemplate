@@ -1,7 +1,21 @@
 :root {
-	--background: white;
-	--foreground: black;
-	
-	--font-family: "Arial";
-	--font-size: 20px;
+	--background-primary: #141E30;  /* fallback for old browsers */
+	--background-primary: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	--background-primary: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	--font-color-primary: #e6f1ff;
+	--font-color-secondary: #fff;
+	--font-color-highligth: #64ffda;
+	--font-color-effect: #14011dbe;
+
+	--font-xl: 12px;
+	--font-s: 14px;
+	--font-m: 16px;
+	--font-l: 18px; 
+	--font-xl: 20px;
+	--font-xxl: 22px;
+	--font-heading: 24px;
+	--font-heading-l: 26px;
+	--font-heading-xl: 48px;
+	--font-heading-xxl: 72px;
 }
